@@ -1,0 +1,59 @@
+T3A30 000:036.793   SEGGER J-Link V7.84d Log File
+T3A30 000:036.888   DLL Compiled: Jan 25 2023 15:51:00
+T3A30 000:036.893   Logging started @ 2023-02-01 13:55
+T3A30 000:036.896 - 36.898ms
+T3A30 000:036.904 JLINK_SetWarnOutHandler(...)
+T3A30 000:036.909 - 0.006ms
+T3A30 000:036.913 JLINK_OpenEx(...)
+T3A30 000:043.630   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3A30 000:043.991   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3A30 000:044.149   Decompressing FW timestamp took 145 us
+T3A30 000:050.637   Hardware: V9.50
+T3A30 000:050.669   S/N: 69500513
+T3A30 000:050.686   OEM: SEGGER
+T3A30 000:050.702   Feature(s): JFlash, GDB, RDI, FlashBP, FlashDL
+T3A30 000:052.773   TELNET listener socket opened on port 19021
+T3A30 000:052.982   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3A30 000:056.534   WEBSRV Webserver running on local port 19080
+T3A30 000:065.174 - 28.272ms returns "O.K."
+T3A30 000:065.202 JLINK_SetErrorOutHandler(...)
+T3A30 000:065.206 - 0.006ms
+T3A30 000:065.220 JLINK_ExecCommand("ProjectFile = "D:\Workspace\ARM\MCU\GD32F103VCTx\IOBoard\Project\JLinkSettings.ini"", ...). 
+T3A30 000:075.891   Ref file found at: D:\Software\IDEs\Hardware\Keil\Keil_v5\ARM\Segger\JLinkDevices.ref
+T3A30 000:075.947   REF file references invalid XML file: D:\Software\Tools\Embedded\SEGGER\JLink\JLinkDevices.xml
+T3A30 000:076.021 - 10.804ms returns 0x00
+T3A30 000:077.655 JLINK_ExecCommand("Device = GD32F103VC", ...). 
+T3A30 000:079.191   Device "GD32F103VC" selected.
+T3A30 000:079.586 - 1.922ms returns 0x00
+T3A30 000:079.597 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3A30 000:079.604 - 0.003ms returns 0x01
+T3A30 000:079.609 JLINK_GetHardwareVersion()
+T3A30 000:079.613 - 0.005ms returns 95000
+T3A30 000:079.621 JLINK_GetDLLVersion()
+T3A30 000:079.625 - 0.005ms returns 78404
+T3A30 000:079.630 JLINK_GetOEMString(...)
+T3A30 000:079.634 JLINK_GetFirmwareString(...)
+T3A30 000:079.638 - 0.005ms
+T3A30 000:083.609 JLINK_GetDLLVersion()
+T3A30 000:083.620 - 0.012ms returns 78404
+T3A30 000:083.625 JLINK_GetCompileDateTime()
+T3A30 000:083.629 - 0.005ms
+T3A30 000:084.910 JLINK_GetFirmwareString(...)
+T3A30 000:084.918 - 0.010ms
+T3A30 000:086.176 JLINK_GetHardwareVersion()
+T3A30 000:086.183 - 0.009ms returns 95000
+T3A30 000:087.455 JLINK_GetSN()
+T3A30 000:087.464 - 0.010ms returns 69500513
+T3A30 000:088.720 JLINK_GetOEMString(...)
+T3A30 000:091.241 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3A30 000:091.974 - 0.739ms returns 0x00
+T3A30 000:091.985 JLINK_HasError()
+T3A30 000:091.997 JLINK_SetSpeed(5000)
+T3A30 000:092.137 - 0.145ms
+T3A30 000:092.149 JLINK_GetId()
+T3A30 000:200.362   Failed to attach to CPU. Trying connect under reset.
+T3A30 000:904.518 - 812.417ms returns 0x00000000
+T3A30 001:937.403 JLINK_Close()
+T3A30 001:943.092 - 5.703ms
+T3A30 001:943.109   
+T3A30 001:943.113   Closed
